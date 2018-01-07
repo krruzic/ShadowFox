@@ -75,4 +75,6 @@
 	--mid-way-color: var(--grey-60); /* inbetween main dark and light color */
 	--primary-accent-color: var(--blue-40); 
 	--primary-accent-color-dark: var(--blue-50); 
+	--white-text: var(--grey-10);
+
 }
