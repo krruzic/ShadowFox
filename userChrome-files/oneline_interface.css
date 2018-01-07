@@ -1,0 +1,54 @@
+/* hide tabs */
+tab { z-index: -1 !important; }
+
+/* transparent urlbar */
+#urlbar {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* CSS to make urlbar and window controls 1 line */
+#nav-bar {      
+  margin-bottom: -1px !important;               /* remove navbar bottom 1px border */
+  margin-top: -30px !important;
+  margin-right: 7.2vw !important; 
+  border-top: none !important;
+}   
+
+/* Remove padding above tabbar in compact mode */
+#main-window[sizemode="normal"] > #titlebar {
+  -moz-appearance: initial !important;
+}
+
+/* Back & Forward buttons */  
+#back-button > .toolbarbutton-icon,
+#forward-button > .toolbarbutton-icon {
+  transform: scale(0.9, 0.9) !important;
+  margin-left: -2px !important;
+  margin-right: -2px !important; 
+}
+
+/* Move hamburger menu to the left */
+#PanelUI-button,
+#customization-panel-container,
+#customization-panelWrapper .panel-arrow { 
+  -moz-box-ordinal-group: 0 !important;
+  margin-right: -6px !important;
+}
+
+#appMenu-popup {
+  margin-right: -258px !important;
+}
+
+#appMenu-popup .panel-arrow {
+  margin-right: 248px !important;
+}
+
+/* More tools... button */
+#nav-bar-overflow-button { 
+  transform: scale(0.9, 0.9) !important;
+}
+
+#titlebar-buttonbox {
+  background: var(--chrome-secondary-background-color) !important;
+}
