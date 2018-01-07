@@ -1,0 +1,75 @@
+
+@-moz-document url-prefix(https://news.ycombinator.com/) {
+  .votelinks a {
+    filter: invert(100%) !important;
+  }
+  body {
+    background: var(--dark-accent) !important;
+    color: var(--white-text);
+    text-align: center;
+  }
+  .itemlist {
+    padding: 6px;
+  }
+  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+    background: var(--orange-50) !important;
+  }
+  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+    display: none !important;
+  }
+  #hnmain > tbody:nth-child(1) > tr:nth-child(3) {
+    background: var(--primary-dark-color);
+  }
+  #hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+    display: none !important;
+  }
+  .pagetop>a {
+    color: var(--primary-dark-color) !important;;
+  }
+  .pagetop>a:hover,.comment>span,a:link {
+    color: var(--white-text) !important;;
+  }
+  a.hnuser {
+    color: var(--orange-50) !important;
+  }
+  input {
+    border: solid 1px var(--primary-dark-color) !important;
+    border-radius: 4px;
+    color: var(--white-text) !important;
+    padding: 4px 6px;
+    font-family: verdana;
+    background-color: var(--dark-accent) !important;
+    text-align: left !important;
+    -moz-appearance: none !important;
+  }
+  input[type="submit"] {
+    text-align: center !important;
+  }
+  textarea {
+    background-color: var(--dark-accent) !important;
+    border: none;
+    color: var(--white-text) !important;
+    padding: 4px;
+    -moz-appearance: none !important;
+  }
+  body > form {
+    display: inline-flex;
+    color: var(--white-text) !important;;
+  }
+  a[href="forgot"] {
+    display: block !important;
+  }
+  body>b {
+    font-size: 22px;
+  }
+  .itemlist > tbody:nth-child(1) > tr:nth-child(2) {
+    color: var(--white-text) !important;
+    font-weight: bold;
+  }
+  #hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) {
+    background: var(--primary-dark-color);
+  }
+  #hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+    background: var(--orange-50) !important;
+  }
+}
